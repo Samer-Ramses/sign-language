@@ -9,6 +9,7 @@ This project is part of a Computer Vision (CV) course and focuses on sign langua
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Dataset](#dataset)
+- [Model Architecture](#Model-Architecture)
 - [Demo](#demo)
 
 ## Introduction
@@ -46,12 +47,17 @@ The goal of this project is to build a system that can recognize sign language g
 - `MP_Data.rar`: Dataset containing video frames of sign language gestures.
 - `action.h5`: Trained model weights.
 - `demo.mp4`: Demo video demonstrating the functionality of the model.
-- `requirements`.txt: List of dependencies required to run the project.
+- `requirements.txt`: List of dependencies required to run the project.
+- `architecture.png`: Image that represent the model architecture.
 
 ## Dataset
 
 The dataset used for this project consists of video frames of different sign language gestures. It is stored in `MP_Data.rar`. Make sure to extract it before training the model.
 
+## Model Architecture
+
+[![model architecture](architecture.png)]("architecture")
+
 ## Demo
 
-[![Demo](demo.mp4)]("Demo")
+A demonstration of the sign language detection can be viewed in `demo.mp4`. This video shows the model predicting sign language gestures in real-time.
