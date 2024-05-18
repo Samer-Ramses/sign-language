@@ -9,10 +9,7 @@ This project is part of a Computer Vision (CV) course and focuses on sign langua
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Dataset](#dataset)
-- [Model](#model)
 - [Demo](#demo)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
